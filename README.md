@@ -1,16 +1,19 @@
-# the_movie_db
+# the movie db flutter app
 
-A new Flutter project.
+## Overview
 
-## Getting Started
+This is a simple sample project I have been playing around with while learning Flutter. This app was build while practicing Flutter principles from LazyLoad YouTube courses https://www.youtube.com/@LearnDartFlutter
 
-This project is a starting point for a Flutter application.
+This application integrates the TMDB API https://www.themoviedb.org/
 
-A few resources to get you started if this is your first Flutter project:
+Built on the principles of the flutter_bloc pattern, this app showcases essential features such as user authorization, film search, and a films screen.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Features
+- User Authorization: Implementing secure login functionality using TMDB API.
+- Film Search: Leverage TMDB’s extensive film database for searching movies.
+- Films Screen: A simple yet informative display of movies, showing key details.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+##  Built With
+- Flutter - The UI toolkit used https://flutter.dev/
+- Flutter Bloc - State management https://bloclibrary.dev/#/
+- TMDB API - Movie data source https://www.themoviedb.org/
